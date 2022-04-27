@@ -41,11 +41,13 @@ function showData() {
         card.addEventListener("click", function () {
             var videoId = video.id.videoId;
             localStorage.setItem("videoId", JSON.stringify(videoId))
-            window.open("/playVideo.html", '_blank').focus();
+            window.open("/pages/playVideo.html", '_blank').focus();
         })
     })
 
     console.log(data);
+
+    //dsauihwih
 }
 
 async function searchData() {
